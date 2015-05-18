@@ -1,9 +1,9 @@
-jcuts(✂️)
+jvects(->)
 ======
 
-[![Build Status](https://img.shields.io/travis/zswang/jcuts/master.svg)](https://travis-ci.org/zswang/jcuts)
-[![NPM version](https://img.shields.io/npm/v/jcuts.svg)](http://badge.fury.io/js/jcuts)
+[![Build Status](https://img.shields.io/travis/zswang/jvects/master.svg)](https://travis-ci.org/zswang/jvects)
+[![NPM version](https://img.shields.io/npm/v/jvects.svg)](http://badge.fury.io/js/jvects)
 
 ## 概述
 
-jcuts 多边形剪切
+jvects 适量计算
