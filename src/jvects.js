@@ -178,6 +178,11 @@
     }
     instance.dot = dot;
 
+    /**
+     * 计算纵横坐标的平分和
+     *
+     * @return {number} 返回平分和
+     */
     function square() {
         return instance.x * instance.x + instance.y * instance.y;
     }
