@@ -6,4 +6,4 @@ jvects(->)
 
 ## 概述
 
-jvects 适量计算
+jvects 矢量计算

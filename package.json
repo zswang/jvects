@@ -1,6 +1,6 @@
 {
   "name": "jvects",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "适量组件",
   "main": "src/jvects.js",
   "repository": {
@@ -19,14 +19,14 @@
   },
   "homepage": "https://github.com/zswang/jvects",
   "devDependencies": {
-    "jdists": "0.7.6",
-    "uglify-js": "2.4.15",
-    "mocha": "2.0.1",
+    "jdists": "^2.2.4",
+    "jshint": "^2.9.6",
+    "mocha": "^5.2.0",
     "should": "4.1.0",
-    "jshint": "2.5.8"
+    "uglify-js": "^3.4.9"
   },
   "scripts": {
-    "_uglify": "uglifyjs jvects.js -o jvects.min.js -p 5 -c -m",
+    "_uglify": "uglifyjs jvects.js -o jvects.min.js -c -m",
     "dist": "jdists src/jvects.js -o jvects.js && npm run _uglify",
     "test": "mocha -R spec",
     "lint": "jshint src/*.js"
